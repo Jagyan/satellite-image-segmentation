@@ -50,10 +50,10 @@
 
 I train with custom satellite images dataset
 
-|dataset|n_class|bands|pixel accuracy|best IOU|
-|---|---|---|---
-|Satellite images|3|Multispectral|91%|0.57
-|Satellite images|3|RGB|70%|0.52
+|    Bands    | Pixel Accuracy|Best IOU|
+|-------------|:-------------:|-------:|
+|Multispectral|      90%      |  0.57  |
+|     RGB     |      70%      |  0.52  |
 
 ## Training
 
