@@ -1,0 +1,8 @@
+#Ignore folders
+outputs
+runs
+images
+labels
+runs
+dlt_32N_07
+dlt_32N_07.zip
