@@ -5,10 +5,18 @@
 - The model is based on CVPR '15 best paper honorable mentioned [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/abs/1411.4038)
 
 ## Results
-### Trials
-<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='result/trials.png' padding='5px' height="150px"></img>
+### RGB bands
+#### Ground truth
+<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
 
-### Training Procedures
+#### Prediction
+<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/prediction.png' padding='5px' height="150px"></img>
+
+### Mulrispectral bands
+#### Ground truth
+<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='' padding='5px' height="150px"></img>
+
+#### Prediction
 <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='result/result.gif' padding='5px' height="150px"></img>
 
 
