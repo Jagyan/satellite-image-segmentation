@@ -32,12 +32,13 @@ parser.add_argument('--checkpoint-dir', default='/home/mahapatro/Satellite_image
 
 args = parser.parse_args()
 
+# Checkpoint directory creation
 checkpoint_dir = os.path.join(args.checkpoint_dir, 'checkpoints_multispectral')
-
 if not os.path.exists(checkpoint_dir):
     os.makedirs(checkpoint_dir)
 checkpoint_path = os.path.join(checkpoint_dir)
 
+# Dataset and loaders
 Satellite_Dataset = Dataset(args.data_dir)
 
 dataset_len = len(Satellite_Dataset)
@@ -63,6 +64,7 @@ if not os.path.exists(score_dir):
 IU_scores    = np.zeros((args.num_epochs, 3))
 pixel_scores = np.zeros(args.num_epochs)
 
+# Creating the model
 vgg_model = VGGNet(pretrained=False, requires_grad=True, remove_fc=True)
 fcn_model = FCNs(pretrained_net=vgg_model, n_class=3)
 

@@ -62,6 +62,7 @@ def main():
         test_result = test(fcn_model, torch.tensor(rgb_image), torch.tensor(label), id)
         save_result(label, test_result, id, results_dir)
 
+# Running the image through the model
 def test(model, image, label, id):
     total_ious = []
     pixel_accs = []
@@ -75,12 +76,14 @@ def test(model, image, label, id):
     for p, t in zip(pred, target):
         total_ious.append(iou(p, t))
 
+    # Quantitative analysis of the result
     total_ious = np.array(total_ious).T  # n_class * val_len
     ious = np.nanmean(total_ious, axis=1)
     print("Image id{}, meanIoU: {}, IoUs: {}".format(id, np.nanmean(ious), ious))
 
     return pred
 
+# Save the output to the result path
 def save_result(target, prediction, id, results_dir):
     sample_path = os.path.join(results_dir, id)
     if not os.path.exists(sample_path):

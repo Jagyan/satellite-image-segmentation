@@ -203,6 +203,7 @@ cfg = {
 
 def make_layers(cfg, batch_norm=False):
     layers = []
+    # Number of in channels changed to 12 for multispectral training
     in_channels = 12
     for v in cfg:
         if v == 'M':

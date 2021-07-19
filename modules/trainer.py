@@ -81,6 +81,7 @@ def val(model, train_loader, summaryWriter, optim, epoch, num_epochs, criterion,
     summaryWriter.add_scalar("Validation_IOU", np.nanmean(ious), epoch)
     summaryWriter.add_scalar("Validation_Pixelacc", pixel_accs, epoch)
 
+# Function for evaluation of result using Intersection over union
 def iou(pred, target):
     ious = []
     for cls in range(3):
@@ -92,9 +93,9 @@ def iou(pred, target):
             ious.append(float('nan'))  # if there is no ground truth, do not include in evaluation
         else:
             ious.append(float(intersection) / max(union, 1))
-        # print("cls", cls, pred_inds.sum(), target_inds.sum(), intersection, float(intersection) / max(union, 1))
     return ious
 
+# Function for evaluation of result using Pixel wise accuracy
 def pixel_acc(pred, target):
     correct = (pred == target).sum()
     total   = (target == target).sum()
