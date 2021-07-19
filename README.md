@@ -8,35 +8,52 @@
 ### RGB bands
 #### Ground truth
 <p float="left">
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_24_10/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_31_07/target.png' padding='5px' height="150px"></img>
   <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
-  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
-  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_36_30/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_37_37/target.png' padding='5px' height="150px"></img>
 </p>
 
 
 #### Prediction
 <p float="left">
-  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
-  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
-  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_24_10/prediction.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_31_07/prediction.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/prediction.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_36_30/prediction.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_37_37/prediction.png' padding='5px' height="150px"></img>
 </p>
 
 ### Mulrispectral bands
 #### Ground truth
-<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_27_35/prediction.png' padding='5px' height="150px"></img>
+<p float="left">
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_16_34/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_18_12/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_21_07/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_26_14/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_27_35/target.png' padding='5px' height="150px"></img>
+</p>
+
 
 #### Prediction
-<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_27_35/target.png' padding='5px' height="150px"></img>
+<p float="left">
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_16_34/prediction.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_18_12/prediction.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_21_07/prediction.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_26_14/prediction.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_27_35/prediction.png' padding='5px' height="150px"></img>
+</p>
 
 
 ## Performance
 
 I train with custom satellite images dataset
 
-|dataset|n_class|pixel accuracy|bands|
+|dataset|n_class|bands|pixel accuracy|best IOU|
 |---|---|---|---
-|Satellite images|3|91%|Multispectral
-|Satellite images|3|81%|RGB
+|Satellite images|3|Multispectral|91%|0.57
+|Satellite images|3|RGB|70%|0.52
 
 ## Training
 
