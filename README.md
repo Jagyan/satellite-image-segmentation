@@ -7,17 +7,26 @@
 ## Results
 ### RGB bands
 #### Ground truth
-<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
+<p float="left">
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
+</p>
+
 
 #### Prediction
-<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/prediction.png' padding='5px' height="150px"></img>
+<p float="left">
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
+  <img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results/32N-26E-224N_35_15/target.png' padding='5px' height="150px"></img>
+</p>
 
 ### Mulrispectral bands
 #### Ground truth
-<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='' padding='5px' height="150px"></img>
+<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_27_35/prediction.png' padding='5px' height="150px"></img>
 
 #### Prediction
-<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='result/result.gif' padding='5px' height="150px"></img>
+<img align='center' style="border-color:gray;border-width:2px;border-style:dashed"   src='Test_data/results_multispectral/32N-26E-224N_27_35/target.png' padding='5px' height="150px"></img>
 
 
 ## Performance
